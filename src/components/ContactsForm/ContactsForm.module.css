@@ -1,0 +1,23 @@
+.title {
+  color: rgb(75, 76, 158);
+  text-align: center;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+.wrapper > div {
+  width: 50%;
+}
+.contactsForm form {
+  display: flex;
+  flex-flow: column;
+}
+.contactsForm input {
+  padding: 20px;
+}
+.btn {
+  padding: 20px 30px;
+  display: block;
+  margin-right: auto;
+}

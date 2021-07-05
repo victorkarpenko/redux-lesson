@@ -1,0 +1,17 @@
+@value mainColor from '../../vars.module.css';
+
+.logo {
+  font-size: 2rem;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.header > div {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.header {
+  background-color: black;
+}
